@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is about flrxbox</title>
+    <style>
+	@media(min-width: 460px){
+	.my-container {
+        display: flex;
+		align-items: flex-end;
+		/*flex-direction: column;*/
+
+    }
+
+	.my-container2{
+		display:flex;
+		/*justify-content:flex-end;
+		justify-content:flex-start;
+		justify-content:flex-center;*/
+
+		/*....................space-between : not any space from starting point and end point....................;*/
+
+		/*justify-content:space-between;*/
+				justify-content:space-around;
+
+	}
+
+
+
+	}
+	.my-container3 {
+		display:flex;
+		flex-wrap:wrap;
+	}
+    .my-container div, .my-container2 div, .my-container3 div {
+        border: 1px #ccc solid;
+        padding:10px;
+    }
+	.box-1{
+		flex:1;
+		order:2;
+
+	}
+	.box-2{
+		flex:2;
+		order:3;
+	}
+	.box-3{
+		flex:1;
+		order:1;
+	}
+
+	.my-container2-box{
+		/*....width or flex-basic ....*/
+		/*width:20%;*/
+		flex-basis:27%;
+	}
+
+	.my-container3-box{
+		/*....width or flex-basic ....*/
+		/*width:20%;*/
+		flex-basis:10%;
+	}
+
+
+    </style>
+</head>
+
+<body>
+    <div class ="my-container">
+        <div class=box-1>
+            <h3>Box 1</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class=box-2>
+            <h3>Box 2</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class=box-3>
+            <h3>Box 3</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </div>
+
+	  <div class ="my-container2">
+        <div class="my-container2-box">
+            <h3>Box 4</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="my-container2-box">
+            <h3>Box 5</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="my-container2-box">
+            <h3>Box 6</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </div>
+
+
+<div class ="my-container3">
+        <div class="my-container3-box">
+            <h3>Box 7</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="my-container3-box">
+            <h3>Box 8</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="my-container3-box">
+            <h3>Box 9</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="my-container3-box">
+            <h3>Box 10</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="my-container3-box">
+            <h3>Box 11</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div class="my-container3-box">
+            <h3>Box 12</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
